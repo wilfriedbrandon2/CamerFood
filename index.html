@@ -51,6 +51,11 @@
             z-index: 100;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
+        @supports (-webkit-touch-callout: none) {
+                  input, textarea, select {
+                   font-size: 16px !important;
+                   }
+                  }
         input,
         textarea,
         select {
